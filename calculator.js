@@ -3,6 +3,11 @@ var input=document.querySelector(".input")
 var result=document.querySelector(".result")
 
 
+const canHover = !(matchMedia('(hover: none)').matches);
+if(canHover) {
+  document.body.classList.add('can-hover');
+}
+
 let dotCount=0;
 
 let num=["1","2","3","4","5","6","7","8","9","0"];

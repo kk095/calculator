@@ -135,15 +135,15 @@ sup{
 }
 
 @media (hover: hover) {
-    .calculator .rows .columns:hover{
+    .can-hover .calculator .rows .columns:hover{
         background:rgba(255, 255, 255, .3) ;
         font-weight: bolder;
     
     }
-    .calculator .rows .symbol:hover{
+    .can-hover .calculator .rows .symbol:hover{
         background: rgba(47, 233, 246, .3) ;
     }
-    .calculator .rows .red:hover{
+    .can-hover .calculator .rows .red:hover{
         background: rgb(255, 0, 0,.7);
     }
 
